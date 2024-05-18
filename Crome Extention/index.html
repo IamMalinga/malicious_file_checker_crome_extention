@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malicious File Blocker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Malicious File Blocker</h1>
+    <img src="icons/icon128.png" alt="Extension Icon" class="icon">
+    <div id="desc_main" class="desc_main">
+      <p id="status">Status</p>
+      <div class="desc">
+        <label for="">File Name</label><p id="latestScanFileName"></p>
+        <label for="">File Status</label><p id="latestScanResult"></p>
+      </div>
+    </div>
+    <div id="welcome_message" style="display: block;">
+      <p>Welcome! No scans performed yet.</p>
+    </div>
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="toggleSwitch">
+        <span class="slider round"></span>
+      </label>
+      <p>Extension: <span id="extensionStatus">Off</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

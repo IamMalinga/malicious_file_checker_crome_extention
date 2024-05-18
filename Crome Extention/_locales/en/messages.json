@@ -1,0 +1,55 @@
+{
+    "download_blocked_message_title": {
+      "message": "Download Blocked",
+      "description": "The title of the message shown to the user when a download is blocked"
+    },
+    "download_notify_message_title": {
+      "message": "Download Detected",
+      "description": "The title of the message shown to the user when a download is detected"
+    },
+    "download_blocked_message_body": {
+      "message": "Download of $filename$ from $url$ has been blocked. Download URL: $fileUrl$",
+      "description": "The body of the message shown to the user when a download is blocked",
+      "placeholders": {
+        "filename": {
+          "content": "$1",
+          "example": "payslip.hta"
+        },
+         "url": {
+          "content": "$2",
+          "example": "https://example.com/test.html"
+        },
+        "fileUrl": {
+         "content": "$3",
+         "example": "https://example.com/payslip.hta"
+       }
+      }
+    },
+    "download_notify_message_body": {
+      "message": "Download of $filename$ from $url$ has been detected. Download URL: $fileUrl$",
+      "description": "The body of the message shown to the user when a download is detected",
+      "placeholders": {
+        "filename": {
+          "content": "$1",
+          "example": "payslip.hta"
+        },
+         "url": {
+          "content": "$2",
+          "example": "https://example.com/test.html"
+        },
+        "fileUrl": {
+         "content": "$3",
+         "example": "https://example.com/payslip.hta"
+       }
+      }
+    },
+    "config_error_title": {
+      "message": "Download Blocker - Config Error",
+      "description": "The title of the message shown to the user when a managed config fails to parse"
+    },
+    "config_error_body": {
+      "message": "There was an error parsing the managed config, using default",
+      "description": "The body of the message shown to the user when a managed config fails to parse"
+    }
+  }
+  
