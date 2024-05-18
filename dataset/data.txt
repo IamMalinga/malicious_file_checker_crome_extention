@@ -1,1 +1,2 @@
-
+download data.csv file from below link in keggle
+https://www.kaggle.com/competitions/malware-detection/data?select=data.csv
