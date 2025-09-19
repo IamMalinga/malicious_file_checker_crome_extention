@@ -13,7 +13,7 @@ The system scans file downloads, classifies them as **safe** or **malicious**, a
 
 - **🤖 Machine Learning Model**
   - Trained on Kaggle dataset of malicious vs. safe files.
-  - Achieved **60%+ accuracy** in classification.
+  - Achieved **80%+ accuracy** in classification.
   - Predicts threat levels for each file download.
 
 - **⚡ Automated Threat Handling**
